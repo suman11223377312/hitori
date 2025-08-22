@@ -1,12 +1,6 @@
 const fs = require('fs');
 const chalk = require('chalk');
 
-/*
-	* Create By Naze
-	* Follow https://github.com/nazedev
-	* Whatsapp : https://whatsapp.com/channel/0029VaWOkNm7DAWtkvkJBK43
-*/
-
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
 global.owner = ['6282113821188'] //['628','628'] 2 owner atau lebih
@@ -90,3 +84,4 @@ fs.watchFile(file, () => {
 	delete require.cache[file]
 	require(file)
 });
+
